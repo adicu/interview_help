@@ -7,7 +7,10 @@ noted the prerequesites for being able to answer the question easily, along
 with tags.
 
 For now all the solutions I've given are in Python/pseudocode (my excuse if
-code doesn't actually run).  Feel free to add solutions in other languages.
+code doesn't actually run).  Feel free to add solutions in other languages. Also,
+the way this is set up is ideal for mock interviewers (helpful tags, solutions
+and hints), let me know if there are any ways you can think of to make this
+more helpful to people practicing.
 
 ## Contributing
 

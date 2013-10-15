@@ -18,23 +18,28 @@ OS kernel, and userspace when this code is executed.
 
 ## Question 2
 
+Two separate Linux processes attempt to access memory at the same address,
+will these processes interfere with each other? Why or why not?
+
+## Question 3
+
 Explain in as much detail as possible how modern operating systems handle
 getting requests for more memory than is available on the machine.
 
-## Question 3
+## Question 4
 
 Given the following two programs which are equivalent in functionality,
 which one do you expect to run faster and why?
 
     for (i = 0; i < N; i++) {
         for (j = 0; j < M; j++) {
-            arr[i] += j * i;
+            sum += arr[i];
         }
     }
 
     for (j = 0; j < M; j++) {
         for (i = 0; i < N; i++) {
-            arr[i] += j * i;
+            sum += arr[i];
         }
     }
 
